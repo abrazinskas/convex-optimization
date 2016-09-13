@@ -1,0 +1,7 @@
+cvx_begin
+    variable x
+    variable y
+    minimize (exp(-x))
+    subject to
+        (x.^2)/y <= 0
+cvx_end
